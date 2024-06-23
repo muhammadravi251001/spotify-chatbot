@@ -1,0 +1,10 @@
+streamlit
+google-generativeai
+transformers
+torch
+faiss-cpu
+pinecone-client
+sentence-transformers
+scikit-learn
+python-dotenv
+numpy
