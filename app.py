@@ -29,8 +29,8 @@ def extract_csv(pathname, max_rows=MAX_ROWS, encoding='utf-8'):
 data_parts = extract_csv(pathname)
 
 generation_config = {
-    "temperature": 1,
-    "top_p": 0.95,
+    "temperature": 0.2,
+    "top_p": 0.1,
     "top_k": 0,
     "max_output_tokens": 8192
 }
