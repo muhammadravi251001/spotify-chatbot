@@ -45,3 +45,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 Or you can click the [link](https://spotify-chatbot.streamlit.app/) on this Github's repo.
+
+## Future Works
+One possible continuation is to compare the performance (based on quality scores or similar metrics) of all existing approaches.
