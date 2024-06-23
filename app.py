@@ -59,9 +59,9 @@ def handle_query(query):
     if query:
         st.session_state.history.append({"role": "user", "content": query})
         response = qna_bot.ask_question(query)
-        # score = quality_score(query, response)
-        # st.session_state.history.append({"role": "assistant", "content": f"{response}\n\n*Quality Score: {score:.2f}*"})
-        st.session_state.history.append({"role": "assistant", "content": f"{response}"})
+        score = quality_score(query, response)
+        st.session_state.history.append({"role": "assistant", "content": f"{response}\n\n*Quality Score: {score:.2f}*"})
+        # st.session_state.history.append({"role": "assistant", "content": f"{response}"})
         display_chat()
 
 query = st.text_input("Enter your question:", key="input")
