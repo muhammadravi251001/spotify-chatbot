@@ -4,7 +4,7 @@ This repository contains the implementation of an AI-powered Q&A chatbot designe
 ## Overview
 The project aims to address the management's need for a more efficient solution to analyze and interpret unstructured user reviews. The chatbot utilizes natural language processing techniques to provide insightful responses to various management queries about user preferences, comparisons with competitors, reasons for dissatisfaction, and emerging trends.
 
-You can see the demo video (1 minute length) at [this link](https://youtu.be/nNagb2GXxu8).
+You can see the demo video (1 minute length) at [this link](https://youtu.be/nNagb2GXxu8), please use your earphone/headset for a clearer voice.
 
 ### Screenshot
 ![image](https://github.com/muhammadravi251001/spotify-chatbot/assets/78993021/7424c89e-3003-4dee-b230-b52a65dda1ce)
