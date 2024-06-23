@@ -4,6 +4,9 @@ This repository contains the implementation of an AI-powered Q&A chatbot designe
 ## Overview
 The project aims to address the management's need for a more efficient solution to analyze and interpret unstructured user reviews. The chatbot utilizes natural language processing techniques to provide insightful responses to various management queries about user preferences, comparisons with competitors, reasons for dissatisfaction, and emerging trends.
 
+### Screenshot
+![image](https://github.com/muhammadravi251001/spotify-chatbot/assets/78993021/7424c89e-3003-4dee-b230-b52a65dda1ce)
+
 ## Features
 - Integration: Integrates with language models like chatGPT, BERT for natural language understanding and generation.
 - Framework: Developed using Python with support for additional tools like Pinecone, Faiss for retrieval-augmented generation.
