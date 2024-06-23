@@ -15,7 +15,7 @@ The project aims to address the management's need for a more efficient solution 
 ## Repository Structure
 
 Before using Gemini AI by Google, I do much experiments before, like using GPT2, DistilBERT, OpenAI GPT; with utilizing RAG (I use Faiss), and some LangChain experiment(s).
-
+```python
 ├── dataset/
 │   └── SPOTIFY_REVIEWS.csv       # Spotify dataset
 ├── experiments/                  # All of the experiments before
@@ -30,10 +30,12 @@ Before using Gemini AI by Google, I do much experiments before, like using GPT2,
 ├── LICENSE                       # License information
 ├── app.py                        # Hosting model & streamlit app
 └── qna_bot.py                    # Serve class to support answering logic
-
+```
 ## How to Use
-bash
+```bash
 git clone https://github.com/muhammadravi251001/spotify-chatbot.git
 cd spotify-chatbot
 pip install -r requirements.txt
 streamlit run app.py
+```
+Or you can click the link on this Github's repo.
